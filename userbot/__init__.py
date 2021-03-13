@@ -3,7 +3,7 @@
 # Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License.
 # inline credit @keselekpermen69
-# Pengguna Lord-Userbot
+# Pengguna One-Piece
 """ Userbot initialization. """
 
 import os
@@ -101,7 +101,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/Zora24/Lord-Userbot.git")
+    "https://github.com/aldoaprilyan3/One-Piece.git")
 UPSTREAM_REPO_BRANCH = os.environ.get(
     "UPSTREAM_REPO_BRANCH", "Lord-Userbot")
 
@@ -180,7 +180,7 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/62dc59b2013a48f9cc8f3.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/7cb3e2a987c927701080e.jpg"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -319,7 +319,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```『Lord-Userbot Telah Aktif』```")
+    await bot.send_message(BOTLOG_CHATID, "```One Piece Turn on```")
     return
 
 with bot:
@@ -403,8 +403,8 @@ with bot:
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
-                    text="{}\n\n**❃ Jumlah Modul Yang Tersedia:** `{}`\n               \n**❃ Daftar Modul Lord Userbot:** \n".format(
-                        "**♛ Lord-Userbot**",
+                    text="{}\n\n**❃ Jumlah Modul Yang Tersedia:** `{}`\n               \n**❃ Daftar Modul One-Piece:** \n".format(
+                        "**♛ One-Piece**",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -412,22 +412,22 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Lord✗Userbot ",
+                    "Bantuan One Piece ",
                     text="Daftar Modul",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    "**Lord✗Userbot**",
-                    text="""**Anda Bisa Membuat Lord Userbot Anda Sendiri Dengan Cara:** [Tekan Disini](t.me/Lorduserbot_Group)""",
+                    "**One Piece**",
+                    text="""**Anda Bisa Membuat One Piece Userbot Anda Sendiri Dengan Cara:** [Tekan Disini](t.me/Lorduserbot_Group)""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "Repo Lord-Userbot",
-                                "https://github.com/Zora24/Lord-Userbot"),
+                                "Repo One-Piece",
+                                "https://github.com/aldoaprilyan3/One-Piece"),
                             custom.Button.url(
                                 "Pemilik Repo",
-                                "t.me/liualvinas")],
+                                "t.me/coklintoud")],
                     ],
                     link_preview=False,
                 )
@@ -496,7 +496,7 @@ with bot:
                     )
                 )
             else:
-                reply_pop_up_alert = f"Harap Deploy Lord Userbot Anda Sendiri, Jangan Menggunakan Milik Lord {ALIVE_NAME} ツ"
+                reply_pop_up_alert = f"Harap Deploy One Piece Anda Sendiri, Jangan Menggunakan Milik Sensei {ALIVE_NAME} ツ"
 
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
