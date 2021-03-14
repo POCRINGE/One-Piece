@@ -124,7 +124,7 @@ async def set_var(var):
 """
 
 
-@register(outgoing=True, pattern=r"^.usage(?: |$)")
+@register(outgoing=True, pattern=r"^.memek(?: |$)")
 async def dyno_usage(dyno):
     """
         Get your account Dyno Usage
@@ -215,14 +215,14 @@ async def _(dyno):
     return os.remove("logs.txt")
 
 
-CMD_HELP.update({"heroku": ">.`usage`"
-                 "\nUsage: Check Dyno Heroku"
+CMD_HELP.update({"heroku": ">.`memek`"
+                 "\nmemek: Check Dyno Heroku"
                  "\n\n>`.set var <NEW VAR> <VALUE>`"
-                 "\nUsage: Tambahkan Variabel Baru Atau Memperbarui Variabel"
+                 "\nmemek: Tambahkan Variabel Baru Atau Memperbarui Variabel"
                  "\nSetelah Menyetel Variabel One-Piece Akan Di Restart."
                  "\n\n>`.get var or .get var <VAR>`"
-                 "\nUsage: Dapatkan Variabel Yang Ada, Gunakan Hanya Di Grup Privasi Anda!"
+                 "\nmemek: Dapatkan Variabel Yang Ada, Gunakan Hanya Di Grup Privasi Anda!"
                  "\nIni Mengembalikan Semua Informasi Pribadi Anda, Harap berhati-hati."
                  "\n\n>`.del var <VAR>`"
-                 "\nUsage: Menghapus Variabel Yang Ada"
+                 "\nmemek: Menghapus Variabel Yang Ada"
                  "\nSetelah Menghapus Variabel Bot Akan Di Restart."})
