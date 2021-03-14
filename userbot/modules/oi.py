@@ -62,7 +62,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.a(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    sleep(3)
+    sleep(1)
     await typew.edit("`hehehe`")
-    sleep(3)
+    sleep(1)
     await typew.edit("`engga dulu😁🙏 `")
