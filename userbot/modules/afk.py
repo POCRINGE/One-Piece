@@ -26,7 +26,7 @@ from userbot.events import register
 AFKSTR = [
     f"**Sorry Bro ꜱᴇɴꜱᴇɪ {ALIVE_NAME} Lagi Berak!**",
     f"**Sorry Bro ꜱᴇɴꜱᴇɪ {ALIVE_NAME} Lagi Berak\n Tunggu Dia Sampai Siap Cebok!**",
-    f"**ꜱᴇɴꜱᴇɪ {ALIVE_NAME} Lagi Berak\n Tunggulah Sampai tetesan tai terkahir**",
+    f"**ꜱᴇɴꜱᴇɪ {ALIVE_NAME} Lagi Berak\n Tunggulah Sampai tetesan tai terakhir**",
     f"**ꜱᴇɴꜱᴇɪ {ALIVE_NAME} Berak!**",
 ]
 
@@ -62,10 +62,10 @@ async def set_afk(afk_e):
     afk_start = start_1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit(f"**✘ AFK!**\n**ꜱᴇɴꜱᴇɪ Telah Berak**\
+        await afk_e.edit(f"**✘ Berak!**\n**ꜱᴇɴꜱᴇɪ Telah Berak**\
         \n☛ **Alasan:** `{string}`")
     else:
-        await afk_e.edit("**✘ AFK!**\n**ꜱᴇɴꜱᴇɪ Telah Berak**")
+        await afk_e.edit("**✘ Berak!**\n**ꜱᴇɴꜱᴇɪ Telah Berak**")
     if user.last_name:
         await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + "【AFK】"))
     else:
