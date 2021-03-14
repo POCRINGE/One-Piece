@@ -57,3 +57,12 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("`Canda xixi`")
 # Create by myself @localheart
+
+
+@register(outgoing=True, pattern='^.a(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(3)
+    await typew.edit("`hehehe`")
+    sleep(3)
+    await typew.edit("`engga dulu😁🙏 `")
