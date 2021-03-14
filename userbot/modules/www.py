@@ -81,10 +81,10 @@ async def pingme(pong):
     await pong.edit("`Ping..............`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**⌖ Pong!**\n"
-                    f"➠ __Ping:__ "
+    await pong.edit(f"**⚡️ Pong!**\n"
+                    f"⚡️ __Ping:__ "
                     f"`%sms` \n"
-                    f"➠ __Uptime:__ "
+                    f"⚡️ __Uptime:__ "
                     f"`{uptime}` \n" % (duration))
 
 
@@ -99,7 +99,7 @@ async def pingme(pong):
     await pong.edit("**DUARRR!!!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**♛ ᴏɴᴇ ᴘɪᴇᴄᴇ  Ping ♛**\n"
+    await pong.edit(f"**➷ ᴏɴᴇ ᴘɪᴇᴄᴇ  Ping  ೃ༄**\n"
                     f"◄► **Ping:** "
                     f"`%sms` \n"
                     f"◄► **Uptime:** "
@@ -120,18 +120,18 @@ async def speedtst(spd):
     result = test.results.dict()
 
     await spd.edit("**Hasil Tes:\n**"
-                   "❃ **Dimulai Pada:** "
+                   "🚀 **Dimulai Pada:** "
                    f"`{result['timestamp']}` \n"
                    f" **━━━━━━━━━━━━━━━━━**\n\n"
-                   "❃ **Download:** "
+                   "🚀 **Download:** "
                    f"`{speed_convert(result['download'])}` \n"
-                   "❃ **Upload:** "
+                   "◬ **Upload:** "
                    f"`{speed_convert(result['upload'])}` \n"
-                   "❃ **Ping:** "
+                   "◮ **Ping:** "
                    f"`{result['ping']}` \n"
-                   "❃ **ISP:** "
+                   "◭ **ISP:** "
                    f"`{result['client']['isp']}` \n"
-                   "❃ **BOT:** `One-Piece`")
+                   "➷ **BOT:** `One-Piece`")
 
 
 def speed_convert(size):
