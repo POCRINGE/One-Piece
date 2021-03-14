@@ -265,45 +265,43 @@ async def typewriter(typew):
                      "╨━━┗┛┗┛━━┗┛┗┛━━┻\n")
 
 
-@register(outgoing=True, pattern='^.bernyanyi(?: |$)(.*)')
+@register(outgoing=True, pattern='^.sturxa(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Ganteng Doang Gak Bernyanyi (ง˙o˙)ว**")
+    await typew.edit("**Admin Sturxa (ง˙o˙)ว**")
     sleep(2)
-    await typew.edit("**♪┗ ( ･o･) ┓♪┏ (・o･) ┛♪**")
+    await typew.edit("**Owner Anjing**")
     sleep(1)
-    await typew.edit("**♪┏(・o･)┛♪┗ ( ･o･) ┓**")
+    await typew.edit("**Dickontol**")
     sleep(1)
-    await typew.edit("**♪┗ ( ･o･) ┓♪┏ (・o･) ┛♪**")
+    await typew.edit("**Bocah Sangean**")
     sleep(1)
-    await typew.edit("**♪┏(・o･)┛♪┗ ( ･o･) ┓**")
+    await typew.edit("**Rendi ngentod**")
     sleep(1)
-    await typew.edit("**♪┗ ( ･o･) ┓♪┏ (・o･) ┛♪**")
+    await typew.edit("**Jasi Jelek**")
     sleep(1)
-    await typew.edit("**♪┏(・o･)┛♪┗ ( ･o･) ┓**")
+    await typew.edit("**Gigi Ngentod**")
     sleep(1)
-    await typew.edit("**♪┗ ( ･o･) ┓♪┏ (・o･) ┛♪**")
+    await typew.edit("**Nanad Suka Desah bhaks**")
     sleep(1)
-    await typew.edit("**♪┏(・o･)┛♪┗ ( ･o･) ┓**")
+    await typew.edit("**Akim hmm apaya**")
     sleep(1)
-    await typew.edit("**♪┗ ( ･o･) ┓♪┏ (・o･) ┛♪**")
+    await typew.edit("**bhaks**")
     sleep(1)
-    await typew.edit("**♪┏(・o･)┛♪┗ ( ･o･) ┓**")
+    await typew.edit("**Eh Shadow Cakep **")
     sleep(1)
-    await typew.edit("**♪┗ ( ･o･) ┓♪┏ (・o･) ┛♪**")
+    await typew.edit("**xixixix**")
     sleep(1)
-    await typew.edit("**♪┏(・o･)┛♪┗ ( ･o･) ┓**")
+    await typew.edit("**udah ye kontol cape gua ajg**")
     sleep(1)
-    await typew.edit("**♪┗ ( ･o･) ┓♪┏ (・o･) ┛♪**")
+    await typew.edit("**hehehe**")
     sleep(1)
-    await typew.edit("**♪┏(・o･)┛♪┗ ( ･o･) ┓**")
-    sleep(1)
-    await typew.edit("**♪┗ ( ･o･) ┓♪┏ (・o･) ┛♪**")
+    await typew.edit("**Lo semua ngentot 🙈**")
 
 
 CMD_HELP.update({
     "vip":
-    "`.bulan` ; `.hati` ; `.bernyanyi`\
+    "`.bulan` ; `.hati` ; `.sturxa`\
     \nUsage: liat aja.\
     \n\n`.helikopter` ; `.tank` ; `.tembak`\n`.bundir`\
     \nUsage: liat sendiri\
