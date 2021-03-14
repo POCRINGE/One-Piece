@@ -67,9 +67,9 @@ async def set_afk(afk_e):
     else:
         await afk_e.edit("**✘ Berak!**\n**ꜱᴇɴꜱᴇɪ Telah Berak**")
     if user.last_name:
-        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + "【AFK】"))
+        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + "【Berak】"))
     else:
-        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name="【AFK】"))
+        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name="【Berak】"))
     if BOTLOG:
         await afk_e.client.send_message(BOTLOG_CHATID, "#AFK\n**ꜱᴇɴꜱᴇɪ Telah Berak!**")
     ISAFK = True
