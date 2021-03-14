@@ -67,7 +67,7 @@ async def _(fry):
     return os.remove(downloaded_file_name)
 
 
-@register(outgoing=True, pattern=r'^.df(:? |$)([1-8])?')
+@register(outgoing=True, pattern=r'^.konyol(:? |$)([1-8])?')
 async def _(fry):
     await fry.edit("`Sedang Dalam Proses......`")
     level = fry.pattern_match.group(2)
@@ -130,7 +130,7 @@ async def _(fry):
 
 
 CMD_HELP.update({
-    "Jelek":
-    "`.jelek` or `.jelek` [level(1-8)]"
+    "jelek":
+    "`.jelek` or `.konyol` [level(1-8)]"
     "\nUsage: untuk mengubah foto/sticker."
 })
