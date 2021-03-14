@@ -197,8 +197,8 @@
       "required": false
     },
     "WEATHER_DEFCITY": {
-      "description": "Set the default city for the userbot's weather module.",
-      "value": "Batam",
+      "description": "Nama Kota Tempat Lu Tinggal.",
+      "value": "Padang",
       "required": false
     },
     "LOGSPAMMER": {
