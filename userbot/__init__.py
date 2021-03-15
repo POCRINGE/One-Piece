@@ -319,7 +319,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```One Piece Turn on```")
+    await bot.send_message(BOTLOG_CHATID, "```[One Piece Telah Hidup Sensei⚡]```")
     return
 
 with bot:
