@@ -10,14 +10,19 @@
 Repo Yang Fork [Shadow](https://t.me/coklintoud) 
 
 
-### CARA MENDAPATKAN STRING SESSON
+### STRING SESSION REPLIT
 
-#String [TEKAN DISINI](https://replit.com/@aldoaprilyan3/One-Piece-String-Session?v=1)
+[STRING SESSION](https://replit.com/@aldoaprilyan3/One-Piece-String-Session?v=1)
 
-## Bagaimana Cara Deploy?
+
+  ### Read more
+<details>
+  <summary><b>KLIK DISINI UNTUK TOMLOL MENDEPLOY</b></summary>
+
+## CARA DEPLOY? JANGAN MALAS BACA SAYANG ☺
 
 ```
-* **CARA DEPLOY** 🔧
+* **[HEROKU](https://www.heroku.com/) Method** 🔧
 
   > Pertama Dapatkan API_KE & API_HASH Di my.telegram.org (Wajib)
 
@@ -29,41 +34,9 @@ Repo Yang Fork [Shadow](https://t.me/coklintoud)
 
   > Terakhir Hidupkan Dyno Lalu Check Logs (settings -> view logs) Jika Berhasil Enjoy :)
 ```
-Atau Bisa Gabung Ke Grup  Userbot -> [TEKAN DISINI](https://t.me/LordUserbot_Group)
-## <p align="center">Deploy One Piece</p>
 
-
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/aldoaprilyan3/One-Piece/tree/Lord-Userbot"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
-
-<br>
-
-</p>
-
-  ### Read more
-<details>
-  <summary><b>KLIK DISINI UNTUK TOMLOL DEPLOY ASU</b></summary>
-
-## CARA DEPLOY? JANGAN MALAS BACA TOLOL 😈
-
-```
-* **[HEROKU](https://www.heroku.com/) Method** 🔧
-
-  > First get API_KE & API_HASH in my.telegram.org (required)
-
-  > Get String Session on command below run in your terminal (required)
-
-  > Next click Deploy the button below. 
-
-  > Fill in the required fields on heroku
-
-  > Finally turn on the app and check the logs (settings -> view logs) enjoy :)
-```
-
-* DENGAN HEROKU:
+* HEROKU:
 <p align="center">
-   <a href = "https://heroku.com/deploy?template=https://github.com/ManusiaRakitan/Kampang-Bot/tree/Kampang"><img src="https://telegra.ph/file/34fa325c222a70badb02f.jpg" alt="Press to Takeoff" width="490px"></a>
+   <a href = "https://heroku.com/deploy?template=https://github.com/aldoaprilyan3/One-Piece/tree/Lord-Userbot"><img src="https://telegra.ph/file/34fa325c222a70badb02f.jpg" alt="Press to Takeoff" width="490px"></a>
 </p>
 <br>
-
-## How to setup Google Drive
-<p align="center"><a href="https://telegra.ph/How-To-Setup-Google-Drive-04-03"> <img src="https://raw.githubusercontent.com/ManusiaRakitan/Bot-Kampang/Kampang/userbot/resources/gd.png" alt="Click" width="210" height="34.45" /></a></p>
