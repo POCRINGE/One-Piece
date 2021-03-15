@@ -12,7 +12,7 @@ from userbot import CMD_HELP
 from userbot.events import register
 
 
-@register(outgoing=True, pattern=r"^\.purge$")
+@register(outgoing=True, pattern=r"^\.hapus$")
 async def fastpurger(purg):
     chat = await purg.get_input_chat()
     msgs = []
@@ -28,7 +28,7 @@ async def fastpurger(purg):
                 await purg.client.delete_messages(chat, msgs)
                 msgs = []
     else:
-        return await purg.edit("`Mohon Balas Ke Pesan Lord ツ `")
+        return await purg.edit("`Tolong Balas Ke pesan Sensei☺`")
 
     if msgs:
         await purg.client.delete_messages(chat, msgs)
@@ -39,7 +39,7 @@ async def fastpurger(purg):
     if BOTLOG:
         await purg.client.send_message(
             BOTLOG_CHATID,
-            "Berhasil Menghapus Pesan Lord " + str(count) + " Pesan Berhasil  Dibersihkan.")
+            "Saya Berhasil Menghapus Pesan Sensei Jumlah" + str(count) + " Pesan Berhasil  Dibersihkan☄")
     """
     await sleep(2)
     await done.delete()
@@ -59,13 +59,13 @@ async def purgeme(delme):
 
     smsg = await delme.client.send_message(
         delme.chat_id,
-        "`Berhasil Menghapus Pesan Lord,` " + str(count) + " `Pesan Telah Dihapus ツ`",
+        "`Saya Telah Berhasil Menghapus Pesan Sensei,` " + str(count) + " `Pesan Telah Dihapus ツ`",
     )
     """
     if BOTLOG:
         await delme.client.send_message(
             BOTLOG_CHATID,
-            "`Lord Telah Menghapus Pesan,` " + str(count) + " Pesan Telah Dihapus ツ`")
+            "`Sensei Sudah Menghapus,` " + str(count) + " Pesan  Yang Telah Dihapus ⚡`")
     """
     await sleep(2)
     i = 1
@@ -82,7 +82,7 @@ async def delete_it(delme):
             """
             if BOTLOG:
                 await delme.client.send_message(
-                    BOTLOG_CHATID, "`Lord Berhasil Menghapus Pesan ツ`")
+                    BOTLOG_CHATID, "`Sensei Berhasil Menghapus Pesan ✨`")
             """
         except rpcbaseerrors.BadRequestError:
             await delme.edit("`Tidak Bisa Menghapus Pesan`")
@@ -125,11 +125,11 @@ async def selfdestruct(destroy):
     """
     if BOTLOG:
         await destroy.client.send_message(BOTLOG_CHATID,
-                                          "`SD Berhasil Dilakukan ツ`")
+                                          "`SD Berhasil Dilakukan `")
     """
 
 
-CMD_HELP.update({"purge": ">`.purge`"
+CMD_HELP.update({"purge": ">`.hapus`"
                  "\nUsage: Membersihkan semua pesan mulai dari pesan yang dibalas.",
                  "purgeme": ">`.purgeme <angka>`"
                  "\nUsage: Menghapus jumlah pesan anda, yang mau anda hapus.",
