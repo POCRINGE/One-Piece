@@ -1,5 +1,5 @@
 # Based Plugins
-# Ported for Lord-Userbot By liualvinas/Alvin
+# Ported for One-Piece By @coklintoud
 
 from telethon import events
 from userbot.events import register
