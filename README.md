@@ -17,7 +17,7 @@ Repo Yang Fork [Shadow](https://t.me/coklintoud)
 
   ### Read more
 <details>
-  <summary><b>KLIK DISINI UNTUK TOMLOL MENDEPLOY</b></summary>
+  <summary><b>KLIK DISINI UNTUK  MENDEPLOY</b></summary>
 
 ## CARA DEPLOY? JANGAN MALAS BACA SAYANG ☺
 
