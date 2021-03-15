@@ -15,15 +15,15 @@
   "stack": "container",
   "env": {
     "API_KEY": {
-      "description": "Dapatkan Api Key di web my.telegram.org.",
+      "description": "Dapatkan Api Key di web my.telegram.org atau menggunakan bot di telegram @UseTGXBot",
       "required": true
     },
     "API_HASH": {
-      "description": "Dapatkan Api Hash Di Web my.telegram.org.",
+      "description": "Dapatkan Api Hash Di Web my.telegram.org atau menggunakan bot di telegram @UseTGXBot",
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di termux caranya ada di repo, jika tidak tau reponya tanya @liualvinas di telegram",
+      "description": "Dapatkan String Session di termux caranya ada di repo, jika tidak tau reponya tanya @coklintoud di telegram",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -151,7 +151,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default Bio Mu.",
-      "value": "LORD-USERBOT",
+      "value": "One-Piece",
       "required": false
     },
     "ALIVE_NAME": {
@@ -159,7 +159,7 @@
       "required": false
     },
     "LORD_TEKS_KUSTOM": {
-      "description": "Kustom Pesan Alive Mu Untuk Perintah .lord (Isi Terserah)",
+      "description": "Kustom Pesan Alive Mu Untuk Perintah .op (Isi Terserah)",
       "required": false
     },
     "S_PACK_NAME": {
@@ -211,7 +211,7 @@
       "required": false
     },
     "UPSTREAM_REPO_URL": {
-      "description": "In case you maintain a fork, add your repo URL here.",
+      "description": "Jika lu punya Repo yang difork, letakkan url nya contoh (https://github.com/aldoaprilyan423/One-Piece).",
       "required": false
     },
     "BOT_TOKEN": {
