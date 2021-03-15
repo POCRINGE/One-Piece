@@ -38,3 +38,27 @@ Atau Bisa Gabung Ke Grup  Userbot -> [TEKAN DISINI](https://t.me/LordUserbot_Gro
 <br>
 
 </p>
+
+  <summary><b>KLIK DISINI UNTUK TOMLOL DEPLOY ASU</b></summary>
+
+## CARA DEPLOY? JANGAN MALAS BACA TOLOL 😈
+
+```
+* **[HEROKU](https://www.heroku.com/) Method** 🔧
+
+  > First get API_KE & API_HASH in my.telegram.org (required)
+
+  > Get String Session on command below run in your terminal (required)
+
+  > Next click Deploy the button below. 
+
+  > Fill in the required fields on heroku
+
+  > Finally turn on the app and check the logs (settings -> view logs) enjoy :)
+```
+
+* DENGAN HEROKU:
+<p align="center">
+   <a href = "https://heroku.com/deploy?template=https://github.com/ManusiaRakitan/Kampang-Bot/tree/Kampang"><img src="https://telegra.ph/file/34fa325c222a70badb02f.jpg" alt="Press to Takeoff" width="490px"></a>
+</p>
+<br>
