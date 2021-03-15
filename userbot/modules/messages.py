@@ -129,7 +129,7 @@ async def selfdestruct(destroy):
     """
 
 
-CMD_HELP.update({"purge": ">`.hapus`"
+CMD_HELP.update({"hapus": ">`.hapus`"
                  "\nUsage: Membersihkan semua pesan mulai dari pesan yang dibalas.",
                  "purgeme": ">`.purgeme <angka>`"
                  "\nUsage: Menghapus jumlah pesan anda, yang mau anda hapus.",
