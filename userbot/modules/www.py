@@ -46,16 +46,15 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("**★ PING ★**")
-    await pong.edit("**★✫ PING ★✫**")
-    await pong.edit("**★✫★ PING ★✫★**")
-    await pong.edit("**★✫★✫ PING ★✫★✫**")
+    await pong.edit("**★ PIM ★**")
+    await pong.edit("**☘️PIM ☘️**")
+    await pong.edit("**⚡️ POM ⚡️**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**☠PING** "
-                    f"\n  ➥ `%sms` \n"
+                    f"\n  ⚡️ `%sms` \n"
                     f"**𖣘 ꜱᴇɴꜱᴇɪ** "
-                    f"\n  ➥ `{ALIVE_NAME}` \n" % (duration))
+                    f"\n  ⚡️`{ALIVE_NAME}` \n" % (duration))
 
 
 @register(outgoing=True, pattern="^.lping$")
@@ -110,7 +109,7 @@ async def pingme(pong):
 @register(outgoing=True, pattern="^.speed$")
 async def speedtst(spd):
     """ For .speed command, use SpeedTest to check server speeds. """
-    await spd.edit("`Menjalankan Tes Kecepatan Tinggi...🚀`")
+    await spd.edit("`Menjalankan Tes Kecepatan Tinggi...☘️`")
     test = Speedtest()
 
     test.get_best_server()
@@ -151,7 +150,7 @@ def speed_convert(size):
 async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     start = datetime.now()
-    await pong.edit("`Pong.....🔨`")
+    await pong.edit("`Pong.....👾`")
     end = datetime.now()
     duration = (end - start).microseconds / 9000
     await pong.edit("✘ **Ping!**\n`%sms`" % (duration))
