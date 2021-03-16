@@ -265,6 +265,40 @@ async def typewriter(typew):
                      "╨━━┗┛┗┛━━┗┛┗┛━━┻\n")
 
 
+@register(outgoing=True, pattern='^.chill(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**Admin Chill (ง˙o˙)ว**")
+    sleep(2)
+    await typew.edit("**Owner Cewe**")
+    sleep(1)
+    await typew.edit("**Om aam**")
+    sleep(1)
+    await typew.edit("**pedofil**")
+    sleep(1)
+    await typew.edit("**Anjas Ngentod**")
+    sleep(1)
+    await typew.edit("**Alvian Cabul**")
+    sleep(1)
+    await typew.edit("**Nabila ga ada adab**")
+    sleep(1)
+    await typew.edit("**Jul Ngentod**")
+    sleep(1)
+    await typew.edit("**Raka Sange**")
+    sleep(1)
+    await typew.edit("**Amah jelek hehehe**")
+    sleep(1)
+    await typew.edit("**Shadow Ganteng☠️ **")
+    sleep(1)
+    await typew.edit("**xixixix**")
+    sleep(1)
+    await typew.edit("**eh betewe lu semua kontol**")
+    sleep(1)
+    await typew.edit("**Satu lagi,Otan Ajg**")
+    sleep(1)
+    await typew.edit("**Hehehe yang liat ini ajg⚡️**")
+
+
 @register(outgoing=True, pattern='^.sturxa(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -301,7 +335,7 @@ async def typewriter(typew):
 
 CMD_HELP.update({
     "vip":
-    "`.bulan` ; `.hati` ; `.sturxa`\
+    "`.bulan` ; `.hati` ; `.sturxa` ; `.chill`\
     \nUsage: liat aja.\
     \n\n`.helikopter` ; `.tank` ; `.tembak`\n`.bundir`\
     \nUsage: liat sendiri\
