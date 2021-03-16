@@ -120,7 +120,7 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "√ **Repo Sensei:** [┣─[ ONE PIECE]─┫](https://github.com/aldoaprilyan3/One-Piece)"
+        "**√Repo Sensei:** [┣─[ ONE PIECE]─┫](https://github.com/aldoaprilyan3/One-Piece)\n [┣──[INSTAGRAM]──┫](instagram.com/aldoaprilyan3)"
     )
 
 
@@ -266,15 +266,6 @@ async def scam(results, lim):
     return imglinks
 
 
-@register(outgoing=True, pattern="^.ig$")
-async def repo_is_here(wannasee):
-    """ For .repo command, just returns the repo URL. """
-    await wannasee.edit(
-        "┣────INSTAGRAM────┫(https://instagram.com/aldoaprilyan3)"
-    )
-
-
-
 CMD_HELP.update({
     "random":
     ">`.random <item1> <item2> ... <itemN>`\
@@ -300,7 +291,4 @@ CMD_HELP.update({
     "raw":
     ">`.raw`\
     \nUsage: Get detailed JSON-like formatted data about replied message."
-    ">`.ig`\
-    \nUsage: Instagram Owner Shadow".
-
 })
