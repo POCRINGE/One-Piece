@@ -31,6 +31,12 @@ async def typewriter(typew):
     await typew.edit("Wa'alaikumussalam")
 
 
+@register(outgoing=True, pattern='^.ig(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("[INSTAGRAM](instagram.com/aldoaprilyan3)")
+
+
 CMD_HELP.update({
     "salam":
     "`.P`\
