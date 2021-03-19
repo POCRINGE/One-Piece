@@ -223,18 +223,18 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f" **┗┓One Piece┏┛** \n"
+        f" **☬ ᴏɴᴇ ᴘɪᴇᴄᴇ ೃ༄** \n"
         f"\n__**{LORD_TEKS_KUSTOM}**__\n"
         f"**━━━━━━━━━━━━━━━━━━━━**\n"
-        f"**♛ My Sensei** \n"
-        f" ➥ `{DEFAULTUSER}` \n"
-        f"**♛ It's me** \n"
-        f" ➥ `@{user.username}` \n"
+        f"**ᖫ My Sensei** \n"
+        f" ◄► `{DEFAULTUSER}` \n"
+        f"**ᖫ It's me** \n"
+        f" ◄► `@{user.username}` \n"
         f"┏━━━━━━━━━━━━━━━━━━━\n"
-        f"┣[• `Telethon :`Ver {version.__version__} \n"
-        f"┣[• `Python   :`Ver {python_version()} \n"
-        f"┣[• `Bot Ver  :`{BOT_VER} \n"
-        f"┣[• `Modules  :`{len(modules)} \n"
+        f"┣[• `Teletod :`Ver {version.__version__} \n"
+        f"┣[• `Pytod   :`Ver {python_version()} \n"
+        f"┣[• `Ver ᴏɴᴇ ᴘɪᴇᴄᴇ  :`{BOT_VER} \n"
+        f"┣[• `Banyak Module  :`{len(modules)} \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
