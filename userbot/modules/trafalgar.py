@@ -43,7 +43,7 @@ async def typewriter(typew):
     await typew.edit("[INSTAGRAM](instagram.com/diananggrnii_)")
 
 
-@register(outgoing=True, pattern='^.dian(?: |$)(.*)')
+@register(outgoing=True, pattern='^.ian(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("[INSTAGRAM](instagram.com/ianjing_)")
